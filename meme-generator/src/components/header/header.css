@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+
+.leftUnits {
+  display: flex;
+  align-items: center;
+  gap: 17.5px;
+  padding-left: 3%;
+}
+
+.textleft {
+  font-size: 20.75px;
+}
+
+.textRight {
+  font-size: 16px;
+  padding-right: 3%;
+}
+
+img {
+  width: 50px;
+  height: 37px;
+}
