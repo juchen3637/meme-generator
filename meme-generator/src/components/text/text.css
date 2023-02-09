@@ -1,0 +1,29 @@
+.userInputs {
+  margin: 2%;
+}
+
+.enterText {
+  padding-top: 5%; 
+  display: grid;
+  grid-template: 100% 100% / auto auto; /* creates a two row grid*/
+  row-gap: 65%;
+  column-gap: 5%;
+}
+
+.inputText {
+  border-radius: 5px;
+  font-size: 20px;
+  border-color: #D5D4D8;
+}
+
+.generateButton { 
+  grid-column: 1 / -1;
+  color: white;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border: none;
+}
+
+.generateButton:hover {
+  cursor: pointer;
+}
